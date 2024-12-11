@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background: linear-gradient(90deg, rgba(51,183,254,1) 40%, rgba(132,207,247,1) 46%, rgba(238,238,238,0.9887604700083158) 55%);
+        }
+        .formContainer{
+            width: 350px;
+            height: 350px;
+            background-color: white;
+            margin-left:550px;
+            margin-top: 10%;
+            border-radius: 10px;
+         }
+         .signal{
+            display: flex;
+            gap: 5px;
+            padding-top: 10px;
+            padding-left: 5px;
+        }
+        .cri{
+            width:25px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #fd2a44;
+        }
+        .yri{
+            width:25px;
+            height: 20px;
+            border-radius: 50%;
+            background-color:#ffc702 ;
+        }
+        .gri{
+            width:25px;
+            height: 20px;
+            border-radius: 50%;
+            background-color:#38b549 ;
+        }
+        .border{
+            width: 350px;
+            height: 40px;
+            background-color: #2c4d6d;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .input{
+            position: relative;
+            top: 50px;
+            text-align: center;
+        
+        }
+        button{
+            width: 265px;
+            height: 35px;
+            margin-top: 70px;
+            margin-left:40px;
+            border-radius: 10px;
+            color: white;
+            background-color: rgb(221, 11, 11);
+            border: 1px solid rgb(221, 11, 11);
+        }
+        input{
+            width: 250px;
+            height: 30px;
+            margin-left:px;
+            margin-top: 5px;
+            padding-left: 10px;
+            border-radius: 15px;
+            border: 2px solid #2c4d6d;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-family: 'Quattrocento', serif;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <form class="formContainer">
+            <div class="border">
+                <div class="signal">
+                <div class="cri"></div>
+                <div class="yri"></div>
+                <div class="gri"></div>
+                </div>
+            </div>
+            <div class="input">
+                <input type="text" placeholder="Username">
+            </div>
+            <div class="input">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="input">
+                <input type="password" placeholder="Password">
+            </div>
+            <div class="input">
+                <input type="password" placeholder="Re-type Password">
+            </div>
+            <div class="sign">
+                <button type="button"><a href="./index.html">Sign up</a></button>
+            </div>
+        </form>
+    </header>
+</body>
+</html>
